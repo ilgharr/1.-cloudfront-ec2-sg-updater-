@@ -94,13 +94,13 @@ These permissions are required for the script to:
 
 On a successful run, the script will output:
 
-Added IP range: 120.52.22.96/27
-Added IP range: 205.251.249.0/24
-Added IP range: 180.163.57.128/26
-Added IP range: 204.246.168.0/22
-Added IP range: 111.13.171.128/26
-Added IP range: 18.160.0.0/15
-Added IP range: 205.251.252.0/23
-Added IP range: 54.192.0.0/16
-Added IP range: 204.246.173.0/24
-Added IP range: 54.230.200.0/21
+Added IP range: 120.52.22.96/27  
+Added IP range: 205.251.249.0/24  
+Added IP range: 180.163.57.128/26  
+Added IP range: 204.246.168.0/22  
+Added IP range: 111.13.171.128/26  
+Added IP range: 18.160.0.0/15  
+Added IP range: 205.251.252.0/23  
+Added IP range: 54.192.0.0/16  
+Added IP range: 204.246.173.0/24  
+Added IP range: 54.230.200.0/21  
