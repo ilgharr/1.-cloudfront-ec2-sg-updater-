@@ -60,7 +60,7 @@ for IP_RANGE in "${IP_RANGES[@]}"; do
 
     if [ -z "$existing_rule" ]; then
         aws ec2 authorize-security-group-ingress --group-id "$current_sg_id" \
-            --protocol "$PROTOCOL" --port "$PORT" --cidr "$IP_RANGE" 2>>error.log
+            --protocol "$PROTOCOL" --port "$PORT" --cidr "$IP_RANGE" >/dev/null 2>>error.log
         if [ $? -eq 0 ]; then
             echo "Added IP range: $IP_RANGE"
             rule_count=$((rule_count + 1))
