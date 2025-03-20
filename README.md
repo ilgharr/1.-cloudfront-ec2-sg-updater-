@@ -55,13 +55,13 @@ These permissions are required for the script to:
    Clone this repository to your local machine:
    ```bash
    git clone git@github.com:ilgharr/ec2-sg-updater.git
-   cd cloudfront-ec2-sg-updater
+   cd ec2-sg-updater
    ```
 
 2. **Set Execute Permissions**
    Ensure the script has execute permissions:
    ```bash
-   chmod +x add_cloudfront_ipranges.sh
+   chmod +x ec2-iprange-adder.sh
    ```
 
 3. **Download the IP Ranges**
@@ -85,7 +85,7 @@ These permissions are required for the script to:
 5. **Run the Script**
    After configuring the script, execute it using the following command:
    ```bash
-   ./add_cloudfront_ipranges.sh
+   ./ec2-iprange-adder.sh
    ```
 
 ---
