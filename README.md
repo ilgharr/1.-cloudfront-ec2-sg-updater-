@@ -87,7 +87,18 @@ These permissions are required for the script to:
    ```bash
    ./ec2-iprange-adder.sh
    ```
+6. **Optional Editing**
+he script allows you to filter IP ranges based on specific criteria by modifying the following line in the script:  
+```bash
+IP_RANGES=($(jq -r '.prefixes[] | select(.service=="CLOUDFRONT").ip_prefix' "$JSON_FILE"))
+```
 
+- To filter by **service** (e.g., `CLOUDFRONT`, `GLOBALACCELERATOR`):  
+  Replace `"CLOUDFRONT"` with the desired service name.
+
+- To filter by **region**:  
+  Replace `.service=="CLOUDFRONT"` with `.region=="desired-region"` (e.g., `.region=="us-east-1"`).
+   
 ---
 
 ## **Example Output**
