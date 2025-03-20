@@ -54,7 +54,7 @@ These permissions are required for the script to:
 1. **Clone the Repository**
    Clone this repository to your local machine:
    ```bash
-   git clone git@github.com:ilgharr/cloudfront-ec2-sg-updater.git
+   git clone git@github.com:ilgharr/ec2-sg-updater.git
    cd cloudfront-ec2-sg-updater
    ```
 
